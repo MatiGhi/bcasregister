@@ -1,0 +1,29 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?cfc60eb0086d095e29d9e8e25bf63c36") format("truetype"),
+url("./flaticon.woff?cfc60eb0086d095e29d9e8e25bf63c36") format("woff"),
+url("./flaticon.woff2?cfc60eb0086d095e29d9e8e25bf63c36") format("woff2"),
+url("./flaticon.eot?cfc60eb0086d095e29d9e8e25bf63c36#iefix") format("embedded-opentype"),
+url("./flaticon.svg?cfc60eb0086d095e29d9e8e25bf63c36#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "boton-de-informacion": "\f101",
+);
+
+.flaticon-boton-de-informacion:before {
+    content: map-get($flaticon-map, "boton-de-informacion");
+}

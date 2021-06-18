@@ -1,0 +1,1167 @@
+
+:root {
+    --bg_bcas: #0CCCBD;
+    --blue_bold: #2353a1;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    hr {
+        margin-top: 0px !important;
+        border: 1px solid whitesmoke !important;
+    }
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    hr {
+        margin-top: 0px !important;
+        border: 1px solid whitesmoke !important;
+    }
+
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+/* Estilos Generales */
+:root {
+    --bg_bcas: #0CCCBD;
+    --blue_bold: #084272;
+}
+
+@font-face {
+    font-family: 'Nunito-extra-light-font';
+    src: url(./assets/fonts/Nunito/Nunito-ExtraLight.ttf)
+
+}
+
+@font-face {
+    font-family: 'Nunito-light-font';
+    src: url(./assets/fonts/Nunito/Nunito-Light.ttf)
+
+}
+
+@font-face {
+    font-family: 'Nunito-font';
+    src: url(./assets/fonts/Nunito/Nunito-Bold.ttf)
+}
+
+@font-face {
+    font-family: 'Nunito-semi-bold-font';
+    src: url(./assets/fonts/Nunito/Nunito-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Nunito-bold-font';
+    src: url(./assets/fonts/Nunito/Nunito-ExtraBold.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--bg_bcas)!important;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.main-size{
+    height: 1024px;
+    width: 1440px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0!important;
+}
+
+.checkradio-ml{
+    margin-left:40px;
+}
+
+.mssg-checkradio-ml{
+    margin-left:  0px !important;
+}
+
+.col-padding-right {
+    padding-right: 0px!important;
+}
+
+.paddcard {
+    padding-top: 20px;
+    margin-top: 50px;
+    box-shadow: 0px 15px 30px -2px #196e69;
+    width: 800px;
+
+}
+
+.formulario { 
+    margin: 30px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+
+fieldset {
+    margin-bottom: 0px !important;
+}
+
+hr {
+    margin-top: 0px !important;
+    border: 1px solid whitesmoke !important;
+}
+
+.blue_bld {
+    color: var(--blue_bold);
+}
+
+.bg-bcas{
+    color: var(--bg_bcas);
+
+}
+
+.icon-inner {
+    margin-bottom: 12px;
+    margin-left: 7px;
+    font-size: 15px;
+    z-index: 1;
+}
+
+
+#main_registrarse {
+    background-color: var(--bg_bcas);
+}
+
+.font{
+    font-family: 'Nunito-font';
+}
+
+.font-titulo {
+    font-family: 'Nunito-font';
+    color: var(--blue_bold);
+    font-weight: 500;
+    font-size: calc(1rem + 1.4vw);
+    margin-bottom: 0;
+}
+
+.font-subtitulo {
+    font-family: 'Nunito-extra-light-font';
+    font-size: 16px;
+    font-weight:bolder;
+    color: #1b1c1d;
+    margin-bottom: 30px;
+}
+
+.font-parrafo {
+    font-family: 'Nunito-light-font';
+    font-size: 0.75rem;
+    color:#313336;
+    font-weight:bold;
+    line-height: 0.25rem;
+}
+
+.font-check {
+    font-family: 'Nunito-light-font';
+    font-size: 11px;
+    color:#313336;
+    font-weight: bold;
+}
+
+.check-wrapper-si {
+    position: relative;
+    bottom: 12px;
+    left: 15px;
+}
+
+.check-wrapper-no {
+    position: relative;
+    bottom: 13px;
+}
+
+.font-titulo-datos {
+    font-family: 'Nunito-font';
+    color: var(--blue_bold);
+    font-weight: bolder;
+    font-size: 1.10rem;
+}
+
+
+.font-parrafo-edad {
+    font-size: .75rem;
+    color: #636a6d;
+}
+
+.initial-fieldset{
+    height: 40px;
+    margin-left: 0px!important;
+}
+
+.the-rest-fieldset{
+    margin-left: 0px !important;
+}
+
+.input-pl{
+    padding-left: 0px!important;
+}
+
+.input-ml{
+    margin-left: 10px;
+}
+
+.view-password{
+    margin-top: -64px;
+    z-index: 1;
+}
+
+.btn-eye{
+    height:48px;
+    background-color: transparent;
+    border: 1px solid #ced4da;
+    border-left: 0;
+}
+
+.btn-eye:hover, .btn-eye:focus, .btn-eye:active{
+    height:48px;
+    background-color: transparent;
+    color: gray;
+    border: 1px solid #ced4da;
+    border-left: 0;
+    box-shadow: none;
+}
+
+.content-radio input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.content-radio input{
+    visibility: hidden;
+    position: relative;
+    right: -2%;
+}
+
+.content-radio input + i{
+    background:#ffffff;
+    border:1px solid #b5b5b5;
+    position: absolute;
+    right: 34%;
+    top: 2px;
+}
+
+.content-radio input[type=radio] + i {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    right: 34%;
+}
+
+.content-radio input[type=radio] + i:before{
+    content:'';
+    display: block;
+    height: 12px;
+    width: 12px;
+    background: red;
+    border-radius: 100%;
+    position: relative;
+    z-index: 1;
+    top: 3px;
+    left: 3px;
+    background: var(--bg_bcas);
+    transition: all 0.25s ease;
+    transform: sacale(0);
+    opacity: 0;
+}
+
+.content-radio input[type=radio]:checked + i:before{
+    transform: scale(1);
+    opacity: 1;
+}
+
+.content-check input[type="checkbox"] + i:before{
+    content: "";
+    width:15px;
+    height: 15px;
+    float: left;
+    margin: 0.3em 0.5em 0 0;
+    border: 1px solid #ccc;
+    border-radius: 28%;
+    background: #fff;
+}
+
+.content-check input[type="checkbox"]:checked + i:before{
+    border-color: var(--bg_becas);
+}
+
+.content-check input[type="checkbox"]:checked + i:after {
+    content:"";
+    width: 8px;
+    height: 5px;
+    border: 1px solid var(--bg_bcas);
+    float: left;
+    margin-left: -1.2em;
+    border-right: 0;
+    border-top:0;
+    border-top:0.5em;
+    transform: rotate(-55deg);
+}
+
+.content-check input[type="checkbox"]{
+    display: none;
+}
+
+.icon-info {
+    width: 30px;
+}
+
+
+.icon-inner-eye {
+    margin-bottom: 12px;
+    margin-left: 7px;
+    margin-bottom: 0;
+    font-size: 15px;
+    z-index: 1;
+}
+
+.icon-eye {
+    color: #d1cfcf;
+    font-size: 30px;
+    margin-left: 180px;
+}
+
+.icon-eye ::before {
+    width: 20px;
+}
+
+.info{
+    margin-left: 1px;
+}
+
+.info-hidden{
+    transition-property: opacity;
+    transition-duration: 0.8s;
+    opacity: 0;
+}
+
+.info-show{
+    transition-property: opacity;
+    transition-duration: 0.8s;
+    opacity: 0.8;
+}
+
+.globo{
+    position: relative;
+    width: 373px;
+    height: 44px;
+    text-align: center;
+    padding: 5px;
+    font-family: verdana;
+    box-shadow: 0px 1px 5px -2px rgba(38, 44, 0.55);
+    -webkit-box-shadow: opx 1px 5px -2px rgba(38, 44, 49, 0.55);
+    -moz-box-shadow: 0px 1px 5px -2px rgba(38, 44, 49, 0.55);
+    z-index: 1;
+    margin-bottom: 18px;
+    margin-left: 10px;
+    background-color:red;
+}
+
+.arrow-before {
+    width: 0px;
+    height: 0px;
+    border-bottom: 8px solid transparent;
+    border-top: 8px solid transparent;
+    border-right: 11px solid #dfe4e7;
+    font-size: 0px;
+    line-height: 0px;
+    top: 14px;
+    left: 18px;
+    position: relative;
+}
+
+.arrow-after {
+    width: 0px;
+    height: 0px;
+    border-bottom: 8px solid transparent;
+    border-top: 8px solid transparent;
+    border-right: 10px solid rgb(255, 255, 255);
+    font-size: 0px;
+    line-height: 0px;
+    top: 46%;
+    left: 2px;
+    z-index: 2;
+    position: relative;
+}
+
+.font-info{
+    color: #636a6d;
+    font-size: 12px;
+}
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+/* Estilos Generales */
+:root {
+    --bg_bcas: #0CCCBD;
+    --blue_bold: #084272;
+}
+
+@font-face {
+    font-family: 'Nunito-extra-light-font';
+    src: url(./assets/fonts/Nunito/Nunito-ExtraLight.ttf)
+}
+
+@font-face {
+    font-family: 'Nunito-light-font';
+    src: url(./assets/fonts/Nunito/Nunito-Light.ttf)
+}
+
+@font-face {
+    font-family: 'Nunito-font';
+    src: url(./assets/fonts/Nunito/Nunito-Bold.ttf)
+}
+
+@font-face {
+    font-family: 'Nunito-semi-bold-font';
+    src: url(./assets/fonts/Nunito/Nunito-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Nunito-bold-font';
+    src: url(./assets/fonts/Nunito/Nunito-ExtraBold.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--bg_bcas)!important;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.main-size{
+    height: 1024px;
+    width: 1440px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0!important;
+}
+
+.checkradio-ml{
+    margin-left:40px;
+}
+
+.mssg-checkradio-ml{
+    margin-left:  0px !important;
+}
+
+.col-padding-right {
+    padding-right: 0px!important;
+}
+
+.paddcard {
+    padding-top: 20px;
+    margin-top: 50px;
+    box-shadow: 0px 15px 30px -2px #196e69;
+    width: 800px;
+
+}
+
+.formulario { 
+    margin: 30px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+
+fieldset {
+    margin-bottom: 0px !important;
+}
+
+hr {
+    margin-top: 0px !important;
+    border: 1px solid whitesmoke !important;
+}
+
+.blue_bld {
+    color: var(--blue_bold);
+}
+
+.bg-bcas{
+    color: var(--bg_bcas);
+
+}
+
+.icon-inner {
+    margin-bottom: 12px;
+    margin-left: 7px;
+    font-size: 15px;
+    z-index: 1;
+}
+
+#main_registrarse {
+    background-color: var(--bg_bcas);
+}
+
+.font{
+    font-family: 'Nunito-font';
+}
+
+.font-titulo {
+    font-family: 'Nunito-font';
+    color: var(--blue_bold);
+    font-weight: 500;
+    font-size: calc(1rem + 1.4vw);
+    margin-bottom: 0;
+}
+
+.font-subtitulo {
+    font-family: 'Nunito-extra-light-font';
+    font-size: 16px;
+    font-weight:bolder;
+    color: #1b1c1d;
+    margin-bottom: 30px;
+}
+
+.font-parrafo {
+    font-family: 'Nunito-light-font';
+    font-size: 0.75rem;
+    color:#313336;
+    font-weight:bold;
+    line-height: 0.25rem;
+}
+
+.font-check {
+    font-family: 'Nunito-light-font';
+    font-size: 11px;
+    color:#313336;
+    font-weight: bold;
+}
+
+.check-wrapper-si {
+    position: relative;
+    bottom: 12px;
+    left: 15px;
+}
+
+.check-wrapper-no {
+    position: relative;
+    bottom: 13px;
+}
+
+.font-titulo-datos {
+    font-family: 'Nunito-font';
+    color: var(--blue_bold);
+    font-weight: bolder;
+    font-size: 1.10rem;
+}
+
+
+.font-parrafo-edad {
+    font-size: .75rem;
+    color: #636a6d;
+}
+
+.initial-fieldset{
+    height: 40px;
+    margin-left: 0px!important;
+}
+
+.the-rest-fieldset{
+    margin-left: 0px !important;
+}
+
+.input-pl{
+    padding-left: 0px!important;
+}
+
+.input-ml{
+    margin-left: 10px;
+}
+
+
+.view-password{
+    margin-top: -64px;
+    z-index: 1;
+}
+
+
+.btn-eye{
+    height:48px;
+    background-color: transparent;
+    border: 1px solid #ced4da;
+    border-left: 0;
+}
+
+.btn-eye:hover, .btn-eye:focus, .btn-eye:active{
+    height:48px;
+    background-color: transparent;
+    color: gray;
+    border: 1px solid #ced4da;
+    border-left: 0;
+    box-shadow: none;
+}
+
+.content-radio input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.content-radio input{
+    visibility: hidden;
+    position: relative;
+    right: -2%;
+}
+
+.content-radio input + i{
+    background:#ffffff;
+    border:1px solid #b5b5b5;
+    position: absolute;
+    right: 34%;
+    top: 2px;
+}
+
+.content-radio input[type=radio] + i {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    right: 34%;
+}
+
+.content-radio input[type=radio] + i:before{
+    content:'';
+    display: block;
+    height: 12px;
+    width: 12px;
+    background: red;
+    border-radius: 100%;
+    position: relative;
+    z-index: 1;
+    top: 3px;
+    left: 3px;
+    background: var(--bg_bcas);
+    transition: all 0.25s ease;
+    transform: sacale(0);
+    opacity: 0;
+}
+
+.content-radio input[type=radio]:checked + i:before{
+    transform: scale(1);
+    opacity: 1;
+}
+
+.content-check input[type="checkbox"] + i:before{
+    content: "";
+    width:15px;
+    height: 15px;
+    float: left;
+    margin: 0.3em 0.5em 0 0;
+    border: 1px solid #ccc;
+    border-radius: 28%;
+    background: #fff;
+}
+
+.content-check input[type="checkbox"]:checked + i:before{
+    border-color: var(--bg_becas);
+}
+
+.content-check input[type="checkbox"]:checked + i:after {
+    content:"";
+    width: 8px;
+    height: 5px;
+    border: 1px solid var(--bg_bcas);
+    float: left;
+    margin-left: -1.2em;
+    border-right: 0;
+    border-top:0;
+    border-top:0.5em;
+    transform: rotate(-55deg);
+}
+
+.content-check input[type="checkbox"]{
+    display: none;
+}
+
+.icon-info {
+    width: 30px;
+}
+
+
+.icon-inner-eye {
+    margin-bottom: 12px;
+    margin-left: 7px;
+    margin-bottom: 0;
+    font-size: 15px;
+    z-index: 1;
+}
+
+.icon-eye {
+    color: #d1cfcf;
+    font-size: 30px;
+    margin-left: 180px;
+}
+
+.icon-eye ::before {
+    width: 20px;
+}
+
+.info{
+    margin-left: 1px;
+}
+
+.info-hidden{
+    transition-property: opacity;
+    transition-duration: 0.8s;
+    opacity: 0;
+}
+
+.info-show{
+    transition-property: opacity;
+    transition-duration: 0.8s;
+    opacity: 0.8;
+}
+
+.globo{
+    position: relative;
+    width: 373px;
+    height: 44px;
+    text-align: center;
+    padding: 5px;
+    font-family: verdana;
+    box-shadow: 0px 1px 5px -2px rgba(38, 44, 0.55);
+    -webkit-box-shadow: opx 1px 5px -2px rgba(38, 44, 49, 0.55);
+    -moz-box-shadow: 0px 1px 5px -2px rgba(38, 44, 49, 0.55);
+    z-index: 1;
+    margin-bottom: 18px;
+    margin-left: 10px;
+    background-color:red;
+}
+
+.arrow-before {
+    width: 0px;
+    height: 0px;
+    border-bottom: 8px solid transparent;
+    border-top: 8px solid transparent;
+    border-right: 11px solid #dfe4e7;
+    font-size: 0px;
+    line-height: 0px;
+    top: 14px;
+    left: 18px;
+    position: relative;
+}
+
+.arrow-after {
+    width: 0px;
+    height: 0px;
+    border-bottom: 8px solid transparent;
+    border-top: 8px solid transparent;
+    border-right: 10px solid rgb(255, 255, 255);
+    font-size: 0px;
+    line-height: 0px;
+    top: 46%;
+    left: 2px;
+    z-index: 2;
+    position: relative;
+}
+
+.font-info{
+    color: #636a6d;
+    font-size: 12px;
+}
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+/* Estilos Generales */
+:root {
+    --bg_bcas: #0CCCBD;
+    --blue_bold: #084272;
+}
+
+@font-face {
+    font-family: 'Nunito-extra-light-font';
+    src: url(./assets/fonts/Nunito/Nunito-ExtraLight.ttf)
+}
+
+@font-face {
+    font-family: 'Nunito-light-font';
+    src: url(./assets/fonts/Nunito/Nunito-Light.ttf)
+}
+
+@font-face {
+    font-family: 'Nunito-font';
+    src: url(./assets/fonts/Nunito/Nunito-Bold.ttf)
+}
+
+@font-face {
+    font-family: 'Nunito-semi-bold-font';
+    src: url(./assets/fonts/Nunito/Nunito-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Nunito-bold-font';
+    src: url(./assets/fonts/Nunito/Nunito-ExtraBold.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--bg_bcas)!important;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.main-size{
+    height: 1024px;
+    width: 1440px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0!important;
+}
+
+.checkradio-ml{
+    margin-left:40px;
+}
+
+.mssg-checkradio-ml{
+    margin-left:  0px !important;
+}
+
+.col-padding-right {
+    padding-right: 0px!important;
+}
+
+.paddcard {
+    padding-top: 20px;
+    margin-top: 50px;
+    box-shadow: 0px 15px 30px -2px #196e69;
+    width: 800px;
+
+}
+
+.formulario { 
+    margin: 30px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+
+fieldset {
+    margin-bottom: 0px !important;
+}
+
+hr {
+    margin-top: 0px !important;
+    border: 1px solid whitesmoke !important;
+}
+
+.blue_bld {
+    color: var(--blue_bold);
+}
+
+.bg-bcas{
+    color: var(--bg_bcas);
+
+}
+
+.icon-inner {
+    margin-bottom: 12px;
+    margin-left: 7px;
+    font-size: 15px;
+    z-index: 1;
+}
+
+#main_registrarse {
+    background-color: var(--bg_bcas);
+}
+
+.font{
+    font-family: 'Nunito-font';
+}
+
+.font-titulo {
+    font-family: 'Nunito-font';
+    color: var(--blue_bold);
+    font-weight: 500;
+    font-size: calc(1rem + 1.4vw);
+    margin-bottom: 0;
+}
+
+.font-subtitulo {
+    font-family: 'Nunito-extra-light-font';
+    font-size: 16px;
+    font-weight:bolder;
+    color: #1b1c1d;
+    margin-bottom: 30px;
+}
+
+.font-parrafo {
+    font-family: 'Nunito-light-font';
+    font-size: 0.75rem;
+    color:#313336;
+    font-weight:bold;
+    line-height: 0.25rem;
+}
+
+.font-check {
+    font-family: 'Nunito-light-font';
+    font-size: 11px;
+    color:#313336;
+    font-weight: bold;
+}
+
+.check-wrapper-si {
+    position: relative;
+    bottom: 12px;
+    left: 15px;
+}
+
+.check-wrapper-no {
+    position: relative;
+    bottom: 13px;
+}
+
+.font-titulo-datos {
+    font-family: 'Nunito-font';
+    color: var(--blue_bold);
+    font-weight: bolder;
+    font-size: 1.10rem;
+}
+
+
+.font-parrafo-edad {
+    font-size: .75rem;
+    color: #636a6d;
+}
+
+.initial-fieldset{
+    height: 40px;
+    margin-left: 0px!important;
+}
+
+.the-rest-fieldset{
+    margin-left: 0px !important;
+}
+
+.input-pl{
+    padding-left: 0px!important;
+}
+
+.input-ml{
+    margin-left: 10px;
+}
+
+
+.view-password{
+    margin-top: -64px;
+    z-index: 1;
+}
+
+.btn-eye{
+    height:48px;
+    background-color: transparent;
+    border: 1px solid #ced4da;
+    border-left: 0;
+}
+
+.btn-eye:hover, .btn-eye:focus, .btn-eye:active{
+    height:48px;
+    background-color: transparent;
+    color: gray;
+    border: 1px solid #ced4da;
+    border-left: 0;
+    box-shadow: none;
+
+}
+
+.content-radio input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.content-radio input{
+    visibility: hidden;
+    position: relative;
+    right: -2%;
+}
+
+.content-radio input + i{
+    background:#ffffff;
+    border:1px solid #b5b5b5;
+    position: absolute;
+    right: 34%;
+    top: 2px;
+}
+
+.content-radio input[type=radio] + i {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    right: 34%;
+}
+
+.content-radio input[type=radio] + i:before{
+    content:'';
+    display: block;
+    height: 12px;
+    width: 12px;
+    background: red;
+    border-radius: 100%;
+    position: relative;
+    z-index: 1;
+    top: 3px;
+    left: 3px;
+    background: var(--bg_bcas);
+    transition: all 0.25s ease;
+    transform: sacale(0);
+    opacity: 0;
+}
+
+.content-radio input[type=radio]:checked + i:before{
+    transform: scale(1);
+    opacity: 1;
+}
+
+.content-check input[type="checkbox"] + i:before{
+    content: "";
+    width:15px;
+    height: 15px;
+    float: left;
+    margin: 0.3em 0.5em 0 0;
+    border: 1px solid #ccc;
+    border-radius: 28%;
+    background: #fff;
+}
+
+.content-check input[type="checkbox"]:checked + i:before{
+    border-color: var(--bg_becas);
+}
+
+.content-check input[type="checkbox"]:checked + i:after {
+    content:"";
+    width: 8px;
+    height: 5px;
+    border: 1px solid var(--bg_bcas);
+    float: left;
+    margin-left: -1.2em;
+    border-right: 0;
+    border-top:0;
+    border-top:0.5em;
+    transform: rotate(-55deg);
+}
+
+.content-check input[type="checkbox"]{
+    display: none;
+}
+
+.icon-info {
+    width: 30px;
+}
+
+
+.icon-inner-eye {
+    margin-bottom: 12px;
+    margin-left: 7px;
+    margin-bottom: 0;
+    font-size: 15px;
+    z-index: 1;
+}
+
+.icon-eye {
+    color: #d1cfcf;
+    font-size: 30px;
+    margin-left: 180px;
+}
+
+.icon-eye ::before {
+    width: 20px;
+}
+
+.info{
+    margin-left: 1px;
+}
+
+.info-hidden{
+    transition-property: opacity;
+    transition-duration: 0.8s;
+    opacity: 0;
+}
+
+.info-show{
+    transition-property: opacity;
+    transition-duration: 0.8s;
+    opacity: 0.8;
+}
+
+.globo{
+    position: relative;
+    width: 373px;
+    height: 44px;
+    text-align: center;
+    padding: 5px;
+    font-family: verdana;
+    box-shadow: 0px 1px 5px -2px rgba(38, 44, 0.55);
+    -webkit-box-shadow: opx 1px 5px -2px rgba(38, 44, 49, 0.55);
+    -moz-box-shadow: 0px 1px 5px -2px rgba(38, 44, 49, 0.55);
+    z-index: 1;
+    margin-bottom: 18px;
+    margin-left: 10px;
+    background-color:red;
+}
+
+.arrow-before {
+    width: 0px;
+    height: 0px;
+    border-bottom: 8px solid transparent;
+    border-top: 8px solid transparent;
+    border-right: 11px solid #dfe4e7;
+    font-size: 0px;
+    line-height: 0px;
+    top: 14px;
+    left: 18px;
+    position: relative;
+}
+
+.arrow-after {
+    width: 0px;
+    height: 0px;
+    border-bottom: 8px solid transparent;
+    border-top: 8px solid transparent;
+    border-right: 10px solid rgb(255, 255, 255);
+    font-size: 0px;
+    line-height: 0px;
+    top: 46%;
+    left: 2px;
+    z-index: 2;
+    position: relative;
+}
+
+.font-info{
+    color: #636a6d;
+    font-size: 12px;
+}
+
+}
